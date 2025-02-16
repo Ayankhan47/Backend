@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const routeSchema = new mongoose.Schema({
+const userSchema = new mongoose.Schema({
     name:{
         type: String
     },
@@ -12,5 +12,5 @@ const routeSchema = new mongoose.Schema({
     }
 });
 
-const RouteModel = mongoose.model('Route',routeSchema);
-module.exports = RouteModel;
+const userModel = mongoose.model('users',userSchema);
+module.exports = userModel;
