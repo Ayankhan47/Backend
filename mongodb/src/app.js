@@ -20,4 +20,13 @@ app.get("/get-file", async (req, res) => {
   });
   res.send(users);
 });
+app.get("/update-user", async (req , res)=>{
+  const user = await userModel.findOneAndUpdate({
+    username:"Ayanspamz77"
+  },{
+    email:"ayankhan@777gmail.com",
+    password:"Ayan786"
+  })
+  res.send(user);  
+})
 module.exports = app;
