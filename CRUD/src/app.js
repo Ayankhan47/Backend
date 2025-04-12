@@ -22,7 +22,7 @@ app.get("/get-file",async(req,res)=>{
 })
 app.get('/update-user',async(req,res)=>{
     const user = await userModel.findOneAndUpdate({
-        username:"Ayankhan777"
+        username:"kaifkhan777"
     },{
         email:"kahnayan986@gmail.com",
         password:"Ayan865976e65r"
