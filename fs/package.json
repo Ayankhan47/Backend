@@ -1,5 +1,5 @@
 {
-  "name": "authenticator",
+  "name": "fs",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
@@ -10,11 +10,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "bcryptjs": "^3.0.0",
-    "cookie-parser": "^1.4.7",
-    "ejs": "^3.1.10",
-    "express": "^4.21.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.13.2"
+    "express": "^5.1.0"
   }
 }
